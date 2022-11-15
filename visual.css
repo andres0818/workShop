@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color:var(--VeryDarkBlue);
+    font-family: 'Poppins', sans-serif;
+}
+
+.general{
+    display: flex;
+    flex-direction: column;
+    background-color:var(--DarkBlue);
+    margin-top: 180px;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 20px;
+    padding: 3%;
+    gap: 30px;
+    
+}
+
+.numeros{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+}
+.parrafo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color:var(--White) ;
+}
+:root{
+    --White: hsl(0, 0%, 100%);
+    --LightGrey: hsl(217, 12%, 63%);
+    --DarkBlue: hsl(213, 19%, 18%);
+    --VeryDarkBlue: hsl(216, 12%, 8%);
+    --MediumGrey: hsl(216, 12%, 54%);
+    --Orange: hsl(25, 97%, 53%);
+}
+.estrella{
+    display: flex;
+    background-color: #2f3743;
+    border-radius: 100px;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    align-items: center;
+}
+
+#star{
+    width: 50%;
+    height: 50%;
+}
+
+span{
+    font-size: 400;
+    font-weight: 40;
+    color: var(--LightGrey);
+}
+
+p{
+    display: flex;
+    border-radius: 100px;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color:#2f3743 ;
+    color: var(--LightGrey);
+    font-size: 12px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.boton button{
+    background-color: var(--Orange);
+    color: var(--White);
+    border: none;
+    width: 100%;
+    border-radius: 15px;
+    height: 4vh;
+    cursor: pointer;
+}
+
+.boton button:hover{
+    background-color: var(--White);
+    color:var(--Orange)
+}
+
+.imagen{
+    display: flex;
+    justify-content: center;
+}
+.respuesta{
+    display: flex;
+    justify-content: center;
+    background-color: #2f3743;
+    color: var(--Orange);
+    border-radius: 15px;
+    width: 50%;
+    font-size: 10px;
+}
+.parrafoRequest{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color:var(--White) ;
+    text-align: center;
+}
+.generalRequest{
+    display: flex;
+    flex-direction: column;
+    background-color:var(--DarkBlue);
+    margin-top: 180px;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 20px;
+    padding: 3%;
+    gap: 30px;
+    align-items: center;
+}
+
